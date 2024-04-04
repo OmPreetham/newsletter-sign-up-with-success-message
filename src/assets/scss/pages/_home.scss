@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
 
 body {
   max-width: $max-width-body;
@@ -22,9 +23,15 @@ body {
   border-radius: $br-wrapper;
 
   margin: 1rem;
+
+  @include pop-animation;
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    display: block;
+  }
+
   .wrapper {
     border-radius: 0;
 

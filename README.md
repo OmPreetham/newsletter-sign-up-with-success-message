@@ -7,10 +7,14 @@ This is a frontend mentor.io challenge project for creating a newsletter signup 
 Desktop
 
 ![Desktop Preview](/public/preview-desktop.png)
+![Desktop Preview Error](/public/preview-desktop-error.png)
+![Desktop Preview Success](/public/preview-desktop-success.png)
 
 Mobile
 
 ![Mobile Preview](/public/preview-mobile.png)
+![Mobile Preview Valid](/public/preview-mobile-valid.png)
+![Mobile Preview Succcess](/public/preview-mobile-success.png)
 
 ## Getting Started
 

@@ -91,3 +91,15 @@
 
   color: $clr-neutral-white;
 }
+
+@mixin font-success-h1-bold {
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: $fw-bold;
+  font-size: $fs-h1;
+  line-height: $lh-success-h1;
+  font-feature-settings: 'ss12' on, 'ss08' on, 'ss14' on, 'ss15' on, 'ss18' on,
+    'ss19' on;
+
+  color: $clr-neutral-dark-slate-grey;
+}
