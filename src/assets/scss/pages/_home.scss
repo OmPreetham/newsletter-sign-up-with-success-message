@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as *;
+
+body {
+  max-width: $max-width-body;
+  min-height: $min-height-body;
+  min-width: $min-width-body;
+
+  margin-inline: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $clr-neutral-charcoal-grey;
+}
+
+.wrapper {
+  max-width: $max-width-wrapper;
+
+  background-color: $clr-neutral-white;
+
+  border-radius: $br-wrapper;
+
+  margin: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    border-radius: 0;
+
+    margin: 0;
+  }
+}
