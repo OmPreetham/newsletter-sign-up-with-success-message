@@ -25,13 +25,13 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 1. Clone this repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/OmPreetham/fylo-data-storage-component.git
+   git clone https://github.com/OmPreetham/newsletter-sign-up-with-success-message.git
    ```
 
 1. Navigate into the project directory:
 
    ```
-   cd fylo-data-storage-component
+   cd newsletter-sign-up-with-success-message
    ```
 
 1. Install dependencies using npm:
