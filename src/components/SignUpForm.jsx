@@ -49,7 +49,7 @@ const SignUpForm = () => {
               <div className="successs__image">
                 <img
                   className="success-icon"
-                  src="/images/icon-success.svg"
+                  src="images/icon-success.svg"
                   alt="Success Icon"
                 />
               </div>
@@ -75,15 +75,15 @@ const SignUpForm = () => {
                   </p>
                   <ul className="signup__features features">
                     <li className="feature__item feature__one">
-                      <img src="/images/icon-list.svg" alt="List Icon" />
+                      <img src="images/icon-list.svg" alt="List Icon" />
                       Product discovery and building what matters
                     </li>
                     <li className="feature__item feature__two">
-                      <img src="/images/icon-list.svg" alt="List Icon" />
+                      <img src="images/icon-list.svg" alt="List Icon" />
                       Measuring to ensure updates are a success
                     </li>
                     <li className="feature__item feature__three">
-                      <img src="/images/icon-list.svg" alt="List Icon" />
+                      <img src="images/icon-list.svg" alt="List Icon" />
                       And much more!
                     </li>
                   </ul>
@@ -114,12 +114,12 @@ const SignUpForm = () => {
               <div className="hero">
                 <picture>
                   <source
-                    srcSet="/images/illustration-sign-up-mobile.svg"
+                    srcSet="images/illustration-sign-up-mobile.svg"
                     media="(max-width: 800px)"
                   />
                   <img
                     className="hero__image"
-                    src="/images/illustration-sign-up-desktop.svg"
+                    src="images/illustration-sign-up-desktop.svg"
                     alt="Illustration Sign Up SVG"
                   />
                 </picture>
